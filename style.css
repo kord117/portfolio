@@ -1,0 +1,41 @@
+
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    
+  }
+  
+
+.content { 
+    text-align: center;
+    position:relative;
+    color: rgb(0 255 7);
+    background-image:  url("images/LOGO_No_Background.jpg") ;
+    background-size:20%;
+    background-position:top;
+    background-repeat: no-repeat;
+   
+    /* z-index:1; */
+  }
+
+  a{
+    color: rgb(255, 166, 0);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a:hover{
+    color:rgb(69, 154, 251);
+    font-size: large;
+    
+  }
+
+  ul{
+    display: inline-block;
+    /* color: pink; */
+  }
+  
