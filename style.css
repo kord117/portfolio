@@ -1,26 +1,18 @@
+  .logo{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  } 
 
-
-#myVideo {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 0;
-    
-  }
-  
-
-.content { 
+body { 
     text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
     position:relative;
-    color: rgb(0 255 7);
-    background-image:  url("images/LOGO_No_Background.jpg") ;
-    background-size:20%;
-    background-position:top;
-    background-repeat: no-repeat;
-   
-    /* z-index:1; */
+    color:white;
+    background-image: url("images/pexels-sam-kolder-2387877.jpg");
+    background-size:cover;
+    background-repeat:no-repeat; 
   }
 
   a{
@@ -36,6 +28,5 @@
 
   ul{
     display: inline-block;
-    /* color: pink; */
   }
   
