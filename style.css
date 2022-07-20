@@ -12,7 +12,7 @@ body {
     color:white;
     background-image: url("images/pexels-sam-kolder-2387877.jpg");
     background-size:cover;
-    background-repeat:no-repeat; 
+    background-repeat:repeat-vertical; 
   }
 
   a{
