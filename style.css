@@ -1,32 +1,38 @@
-  .logo{
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-  } 
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
 
-body { 
-    text-align: center;
-    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
-    position:relative;
-    color:white;
-    background-image: url("images/pexels-sam-kolder-2387877.jpg");
-    background-size:cover;
-    background-repeat:repeat-vertical; 
-  }
+body {
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+  font-size: 1.5rem;
+  position: relative;
+  color: white;
+  background-image: url("images/pexels-sam-kolder-2387877.jpg");
+  background-size: cover;
+  background-repeat: repeat-vertical;
+}
 
-  a{
-    color: rgb(255, 166, 0);
-    font-family: Arial, Helvetica, sans-serif;
-  }
+a {
+  color: rgb(255, 166, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  a:hover{
-    color:rgb(69, 154, 251);
-    font-size: large;
-    
-  }
+a:hover {
+  color: rgb(69, 154, 251);
+}
 
-  ul{
-    display: inline-block;
-  }
-  
+h2,
+.description {
+  margin-top: 0;
+  /* background-color: brown; */
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+}
